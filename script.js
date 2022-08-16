@@ -28,7 +28,7 @@ const calculateBill = () => {
   console.log(personTotal)
 
   // update the perPersonTotal on DOM & show it to user
-  perPersonTotal.innerText = `$${personTotal.toFixed(2)}`
+  perPersonTotal.innerText = `$PKR{personTotal.toFixed(2)}`
 }
 
 // ** Splits the bill between more people **
